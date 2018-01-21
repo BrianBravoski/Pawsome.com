@@ -5,13 +5,13 @@ body{
 .cat{
 background-image: url("../images/cat.jpg");
 color: white;
-font-size: 20px;
+font-size: 40px;
 background-size: cover;
 text-align: center;
-padding-top: 98px;
-padding-bottom: 98px;
-height: 226px;
-font-family: Merriweather;
+padding-top: 20%;
+padding-bottom: 20%;
+height: 25%;
+font-family: sans-serif;
 opacity: 1;
 display: block;
 transition: .5s ease;
@@ -26,12 +26,12 @@ background-image: url("../images/dog.jpg");
 color: white;
 background-size: cover;
 text-align: center;
-padding-top: 98px;
-padding-bottom: 98px;
-height: 226px;
-font-family: Merriweather;
+padding-top: 20%;
+padding-bottom: 20%;
+height: 25%;
+font-family: sans-serif;
 opacity: 1;
-font-size: 20px;
+font-size: 40px;
 display: block;
 transition: .5s ease;
 backface-visibility: hidden;
@@ -64,6 +64,7 @@ footer{
 }
 .fa{
   padding: 10px;
+  color: white;
 }
 .form1{
   border: 1px solid black;
@@ -119,10 +120,10 @@ footer{
   padding: 16px 32px;
 
 }
-/*End of the Pets pa*/
+/*End of the Pets page*/
 /*Beginning chats for contact page*/
 .chat{
-  width: 40%;
+  width: 50%;
   border: 2px solid #dedede;
   padding: 10px;
   margin: 10px;
@@ -172,12 +173,25 @@ footer{
   float: left;
   color: #999;
 }
+.contacts{
+  margin-left: 30%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px dotted grey;
+  width: 35%;
+  text-align: center;
+}
+.contacts .fa{
+  color: black;
+}
 /*End of chat for contact page */
 
 /*About page */
-/*form*/
-
-/*end of form*/
+.adoption{
+  margin-left:30% ;
+  font-size: 15px;
+  padding: 30px;
+}
 /*End of About page*/
 
 /*Start of Nutrition page*/
@@ -215,5 +229,6 @@ td{
   border: 1px solid #ddd;
   margin: 30px;
   border-radius: 2px;
+  font-size: 15px;
 }
 /*End of Health Page*/
